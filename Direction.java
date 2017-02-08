@@ -7,9 +7,6 @@
 //                                                                  //
 //------------------------------------------------------------------//
 
-/**
- * DO NOT MODIFY THIS FILE
- */
 
 public enum Direction {
     // The Definitions for UP, DOWN, LEFT, and RIGHT

@@ -281,17 +281,11 @@ public class Board {
     }
     
     //invokes helper methods according to direction parameter
-    if (direction == Direction.LEFT) {
-      this.moveLeft();
-    }
-    if (direction == Direction.RIGHT) {
-      this.moveRight();
-    }
-    if (direction == Direction.UP) {
-      this.moveUp();  
-    }
-    if (direction == Direction.DOWN) {
-      this.moveDown();
+    switch(direction) {
+    case LEFT: this.moveLeft(); break;
+    case RIGHT: this.moveRight(); break;
+    case UP: this.moveUp(); break;
+    case DOWN: this.moveDown(); break;
     }
     return true;
   }
